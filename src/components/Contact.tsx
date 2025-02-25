@@ -66,7 +66,7 @@ function ContactForm() {
     };
 
     return (
-        <Container>
+        <Container className="my-5 py-5">
             <Row>
                 <Col sm={12} md={10} lg={8} xxl={7} className="mx-auto">
                     <h2 className="h1" id="contact-us">Get In Touch</h2>

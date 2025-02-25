@@ -1,3 +1,7 @@
+---
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -13,7 +17,9 @@
 		<title>Paul Pladziewicz - Software Engineer</title>
 	</head>
 	<body>
+		<Navbar />
 		<slot />
+		<Footer />
 	    <script is:inline src="/theme.min.js"></script>
 	</body>
 </html>
