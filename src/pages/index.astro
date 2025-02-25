@@ -1,8 +1,12 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import ContributionLogos from "../components/ContributionLogos.astro";
+import Jumbotron from "../components/Jumbotron.astro";
+import Contact from "../components/Contact";
 ---
 
 <Layout>
-	<Welcome />
+	<Jumbotron />
+	<ContributionLogos />
+	<Contact client:load />
 </Layout>
