@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Form, Button, Row, Col, Spinner, Alert, Container} from 'react-bootstrap';
+import { Form, Button, Row, Col, Spinner, Alert, Container } from 'react-bootstrap';
 
 function ContactForm() {
     const [formData, setFormData] = useState({
@@ -70,7 +70,7 @@ function ContactForm() {
             <Row>
                 <Col sm={12} md={10} lg={8} xxl={7} className="mx-auto">
                     <h2 className="h1" id="contact-us">Get In Touch</h2>
-                    <p>I’m always open to discussing new opportunities, collaborating on exciting projects, or just sharing insights on software development. If you have something in mind, feel free to reach out!</p>
+                    <p>Whether you’re exploring new software solutions, need help with integrations, or just want to connect about technology, I’d be glad to hear from you. Send me a message and I’ll get back soon.</p>
 
                     {responseMessage && (
                         <Alert className="my-4" variant={responseType}>
